@@ -1,0 +1,23 @@
+.wrap-list {
+  margin: auto 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+
+    a {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 10px;
+      border: 1px solid #000;
+      text-decoration: none;
+    }
+
+  .active {
+    background: green;
+  }
+}
+
+.wrap-img {
+  text-align: center;
+}

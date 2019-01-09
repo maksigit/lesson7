@@ -8,7 +8,7 @@ import {PostComponent} from './components/post/post.component';
 
 import {RouterModule, Routes} from '@angular/router';
 
-import {SlickModule} from 'slick-carousel'
+import {SlickModule} from 'slick-carousel';
 
 import { SwiperModule } from 'ngx-swiper-wrapper';
 import { SWIPER_CONFIG } from 'ngx-swiper-wrapper';
@@ -22,6 +22,8 @@ import {ChartModule} from 'primeng/chart';
 import { ChartComponent } from './components/chart/chart.component';
 import { CaruselComponent } from './components/carusel/carusel.component';
 import {CarouselModule} from 'primeng/carousel';
+import { ParentComponent } from './components/parent/parent.component';
+import { ChildComponent } from './components/child/child.component';
 
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {
@@ -44,7 +46,9 @@ const appRoutes: Routes = [
         // AccordionModule,
         // MenuItem,
         ChartComponent,
-        CaruselComponent
+        CaruselComponent,
+        ParentComponent,
+        ChildComponent,
     ],
     imports: [
         BrowserModule,

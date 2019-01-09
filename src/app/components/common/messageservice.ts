@@ -1,7 +1,7 @@
 
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
-import { Message } from './message';
+import { Message } from '../../interfaces/message';
 
 @Injectable()
 export class MessageService {

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MessageService} from '../common/messageservice';
-import {Car} from '../domain/car';
+import {Car} from '../../interfaces/car';
 
 @Component({
   selector: 'app-carusel',

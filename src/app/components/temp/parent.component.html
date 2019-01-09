@@ -1,0 +1,6 @@
+<button (click)="increase()">Increase</button>
+<span>Parent: {{value}}</span>
+
+<!--<lec-child [value]="value" (valueChange) = "value=$event"></lec-child>-->
+<lec-child [(value)]="value"></lec-child>
+

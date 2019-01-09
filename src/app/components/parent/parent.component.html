@@ -1,0 +1,9 @@
+<div class="wrap-parent">
+    <p>parent works!</p>
+
+    <button class="btn" (click)='addCount()'>Plus 1</button>
+
+    <div id="count">{{value}}</div>
+
+    <app-child [(value)] = "value"></app-child>
+</div>
